@@ -22,20 +22,20 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
 ENV TARGET_ARCHS "armeabi-v7a x86 arm64-v8a x86_64" 
 ENV ANDROID_NDK_DOWNLOAD_URL "https://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip"
 ENV ANDROID_SDK_DOWNLOAD_URL "https://dl.google.com/android/repository/tools_r25.2.5-linux.zip"
-ENV ANDROID_SETUP_APIS "23 25"
-ENV ANDROID_BUILD_TOOLS_VERSION 25
-ENV ANDROID_TARGET_API 23
+ENV ANDROID_SETUP_APIS "19 30"
+ENV ANDROID_BUILD_TOOLS_VERSION 30
+ENV ANDROID_TARGET_API 19
 
-ENV PJSIP_DOWNLOAD_URL "http://www.pjsip.org/release/2.7.1/pjproject-2.7.1.tar.bz2"
+ENV PJSIP_DOWNLOAD_URL "https://github.com/pjsip/pjproject/archive/2.9.tar.gz"
 
-ENV SWIG_DOWNLOAD_URL "http://prdownloads.sourceforge.net/swig/swig-3.0.7.tar.gz"
+ENV SWIG_DOWNLOAD_URL "http://prdownloads.sourceforge.net/swig/swig-3.0.12.tar.gz"
 
-ENV OPENSSL_DOWNLOAD_URL "https://www.openssl.org/source/openssl-1.0.2g.tar.gz"
+ENV OPENSSL_DOWNLOAD_URL "https://www.openssl.org/source/openssl-1.0.2s.tar.gz"
 
-ENV OPENH264_DOWNLOAD_URL "https://github.com/cisco/openh264/archive/v1.7.0.tar.gz"
+ENV OPENH264_DOWNLOAD_URL "https://github.com/cisco/openh264/archive/v1.8.0.tar.gz"
 ENV OPENH264_TARGET_NDK_LEVEL 23
 
-ENV OPUS_DOWNLOAD_URL "http://downloads.xiph.org/releases/opus/opus-1.2.1.tar.gz"
+ENV OPUS_DOWNLOAD_URL "http://downloads.xiph.org/releases/opus/opus-1.3.1.tar.gz"
 ENV OPUS_ANDROID_MK_DOWNLOAD_URL "https://trac.pjsip.org/repos/raw-attachment/ticket/1904/Android.mk"
 
 ENV PATH /sources/android_ndk:$PATH

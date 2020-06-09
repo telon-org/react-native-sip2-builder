@@ -1,15 +1,18 @@
 # react-native-sip2-builder
 Easily build PJSIP with: OpenSSL, OpenH264, Opus and G.729 for Android and iOS, by using Docker and xCode.
 
+## !!!Upgraded versions
+
 ## Versions
 | Library              | Version |
 |----------------------|---------|
-| Android API          | 23      |
-| Android NDK          | r12b    |
-| PJSIP                | 2.7.1   |
-| OPENSSL              | 1.0.2g  |
-| OPENH264             | 1.7.0   | 
-| OPUS                 | 1.2.1   |
+| Android API          | >19-30  |
+| Android NDK          | r17b    |
+| PJSIP                | 2.9     |
+| OPENSSL              | 1.0.2s  |
+| OPENH264             | 1.8.0   | 
+| OPUS                 | 1.3.1   |
+| SWIG                 | 3.0.12  |
 
 ## Build for Android
 ```
